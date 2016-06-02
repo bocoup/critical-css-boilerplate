@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bocoup/critical-css-boilerplate.git"
+  },
+  "devDependencies": {
+    "grunt-criticalcss": "^1.0.2"
   }
 }
