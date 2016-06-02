@@ -9,6 +9,12 @@ body {
 	padding: 2em 0;
 }
 
+.wrapper-category {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
 .hed {
 	color: red;
 	font-size: 2em;
