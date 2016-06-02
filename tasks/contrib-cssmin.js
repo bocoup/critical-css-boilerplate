@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 		},
 		critical: {
 			expand: true,
-			cwd: "<%=csspath%>",
+			cwd: "<%=csspath%>/critical/",
 			dest: "<%=csspath%>/critical/",
 			src: '*'
 		}
