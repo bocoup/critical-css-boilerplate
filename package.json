@@ -11,6 +11,9 @@
     "url": "https://github.com/bocoup/critical-css-boilerplate.git"
   },
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-cssmin": "^1.0.1",
     "grunt-criticalcss": "^1.0.2"
   }
 }
