@@ -1,5 +1,4 @@
 <?php include( "functions/criticalcss.php" ); ?>
-
 <!DOCTYPE html>
 	<html dir="ltr" lang="en-US">
 	<head>

@@ -6,14 +6,14 @@ module.exports = function(grunt) {
 			options: {
 				outputfile: "<%=csspath%>/critical/home.css",
 				filename: "<%=csspath%>/styles.css",
-				url: "<%=baseurl%>"
+				url: "<%=baseurl%>?nocritical"
 			}
 		},
 		category: {
 			options: {
 				outputfile: "<%=csspath%>/critical/category.css",
 				filename: "<%=csspath%>/styles.css",
-				url: "<%=baseurl%>/category.php"
+				url: "<%=baseurl%>/category.php?nocritical"
 			}
 		}
 	});
