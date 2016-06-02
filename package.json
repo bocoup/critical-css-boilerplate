@@ -1,0 +1,13 @@
+{
+  "name": "criticalcss-boiler",
+  "description": "CriticalCSS Boilerplate",
+  "version": "0.0.1",
+  "author": {
+    "name": "Bocoup",
+    "url": "https://github.com/bocoup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bocoup/critical-css-boilerplate.git"
+  }
+}
