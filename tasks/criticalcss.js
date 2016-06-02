@@ -8,6 +8,13 @@ module.exports = function(grunt) {
 				filename: "<%=csspath%>/styles.css",
 				url: "<%=baseurl%>"
 			}
+		},
+		category: {
+			options: {
+				outputfile: "<%=csspath%>/critical/category.css",
+				filename: "<%=csspath%>/styles.css",
+				url: "<%=baseurl%>/category.php"
+			}
 		}
 	});
 };
