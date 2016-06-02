@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		pkg: grunt.file.readJSON( "package.json" ),
-		baseurl: process.env.baseurl || 'http://website.loc',
+		baseurl: process.env.baseurl || 'http://localhost:8080',
 		csspath: require( "path" ).resolve( "css/" )
 	});
 
