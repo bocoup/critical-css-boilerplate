@@ -1,7 +1,7 @@
 # Critical CSS Boilerplate
 There’s a lot of information about the CriticalCSS technique out there—[how it works](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) and [why it is so rad](https://www.filamentgroup.com/lab/performance-rwd.html)—and disparate [tools to help with the process](https://github.com/addyosmani/critical).
 
-What we haven’t seen much of was an isolated demo of CriticalCSS in action—a minimal, functional example of a seamless CriticalCSS setup—done in a way that provides a clear path to fully automated CriticalCSS generation and inclusion.
+What we haven’t seen much of are demos of CriticalCSS in action—minimal, functional examples of a seamless CriticalCSS setup, presented in a way that provides a clear path to _fully automated_ CriticalCSS generation and inclusion.
 
 That’s our goal for this repo.
 
