@@ -40,3 +40,5 @@ The local path to the full stylesheet.
 
 *`url`*
 The URL for the page. `baseurl`, seen here, is provided by `Gruntfile.js` and should be set to either a local development URL or the remote URL, depending on the task’s current context. The `?nocritical` query string is required so that the page used to generate the CriticalCSS doesn’t _contain_ CriticalCSS—otherwise the results of the generation would be the same every time the task is run, rather than relying on the full stylesheet for necessary styles.
+
+Additional configuration options are documented at [https://www.npmjs.com/package/grunt-criticalcss](https://www.npmjs.com/package/grunt-criticalcss).
