@@ -1,9 +1,16 @@
 # Critical CSS Boilerplate
+There’s a lot of information about the CriticalCSS technique out there—[how it works](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) and [why it is so rad](https://www.filamentgroup.com/lab/performance-rwd.html)—and disparate [tools to help with the process](https://github.com/addyosmani/critical).
 
-A bit of grunt, a bit of CSS, all helping you be faster.
+What we haven’t seen much of was an isolated demo of CriticalCSS in action—a minimal, functional example of a seamless CriticalCSS setup—done in a way that provides a clear path to fully automated CriticalCSS generation and inclusion.
 
+That’s our goal for this repo.
+
+Currently, this project assumes very little about development environment and nothing about deployment strategy—it is using Grunt for the CSS generation and minification, a relatively minimal PHP function for inclusion, and _nothing_ in the way of a path to deployment.
+
+Ultimately, this repository will contain multiple examples of the CriticalCSS approach, with clear documentation and example code for various languages and deployment strategies.
 
 ## Getting Started
+
 To run this project locally, spin up a development server using the following command:
 
 ```shell
