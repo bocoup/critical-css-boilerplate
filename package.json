@@ -10,7 +10,8 @@
     "type": "git",
     "url": "https://github.com/bocoup/critical-css-boilerplate.git"
   },
-  "devDependencies": {
-
+  "devDependencies": {},
+  "dependencies": {
+    "webpack-plugin-critical": "^1.0.0"
   }
 }
