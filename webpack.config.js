@@ -21,9 +21,9 @@ var plugins = [
 
 // Define webpack bundles
 var webpackBundles = {
-	index: [],
-	article: [],
-	category: []
+	index: './app/homepage/index.js',
+	article: './app/article/index.js',
+	category: './app/category/index.js'
 };
 
 // Main webpack config
