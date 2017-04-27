@@ -52,6 +52,20 @@ module.exports = {
       minify: true,
       dest: 'index.html'
     }),
+    new critical.CriticalPlugin({
+      src: 'category.html',
+      base: path.resolve(__dirname),
+      inline: true,
+      minify: true,
+      dest: 'category.html'
+    }),
+    new critical.CriticalPlugin({
+      src: 'article.html',
+      base: path.resolve(__dirname),
+      inline: true,
+      minify: true,
+      dest: 'article.html'
+    }),
     new ExtractTextPlugin('css/[name].css')
   ]
 }
