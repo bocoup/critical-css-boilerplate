@@ -1,8 +1,9 @@
+<?php include( "functions/criticalcss.php" ); ?>
 <!DOCTYPE html>
 	<html dir="ltr" lang="en-US">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<?php load_critical_css( "article" ); ?>
 	</head>
 	<body>
 		<h1>Hello there</h1>
